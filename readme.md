@@ -33,3 +33,7 @@ It is intended for this test to take roughly an hour to complete. You are free t
 ### How to submit
 
 Clone this and push to a private github repository and then add @paran01d as a collaborator when completed.
+
+### How to test (New)
+
+Please run `yarn dev`.
