@@ -1,0 +1,40 @@
+.MessagePage {
+  display: flex;
+}
+
+.MessageDisplay, .MessageForm {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+
+#messageError,
+#recipientError,
+#apiError {
+  color: red;
+}
+
+.smsForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.messageDetails {
+  display: flex;
+  flex-direction: column;
+  margin: 2px;
+  padding: 5px;
+  border: 1px solid #2196f3;
+  background: #2196f3;
+  color: white;
+  border-radius: 8px;
+}
+
+.finePrint {
+  font-size: 12px;
+}
